@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<script id="${1:}_template" type="text/x-handlebars-template">
+	${2:}
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>handle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+var uri = this.url_api + 'whatever/list?';
+uri += 'param1=' + var1;
+uri += "&jsoncallback=?";
+
+\$.ajax({
+	url: uri,
+	type: 'GET',
+	dataType: 'jsonp',
+	complete: function(xhr, textStatus) {
+		console.log('Complete');
+	},
+	success: function(data, textStatus, xhr) {
+    	console.log('Success');
+	},
+	error: function(xhr, textStatus, errorThrown) {
+	    console.log('Error:');
+	    console.log('textStatus: ' + textStatus);
+	    console.log('errorThrown: ' + errorThrown);
+	    console.log('xhr: ' + xhr);
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajaxget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

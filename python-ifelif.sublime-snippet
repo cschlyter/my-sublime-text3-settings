@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if cond${1}:
+	pass${2}
+elif cond${3}:
+	pass${4}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifelif</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
