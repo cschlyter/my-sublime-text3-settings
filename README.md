@@ -7,7 +7,7 @@ All my sublime text 3 settings and snippets.
 
 Go to your Sublime Text 3 Packages Directory:
 
-	D:\Sublime Text 3\Data\Packages
+	\Sublime Text 3\Data\Packages
 
 Clone with the command below:
 
