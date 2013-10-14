@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+class ${1:name}Tests(unittest.TestCase):
+
+	def test${2:Name}(self):
+		self.failIf(${3:True})
+
+def main():
+    unittest.main()
+
+if __name__ == '__main__':
+    main()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>testCase</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
