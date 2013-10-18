@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-def test${1:Name}(self):
-		self.assertEquals(${2:True}, ${3:True})
+var templateData = {objects:data.${1:listname}};
+var alertTableContents = render('${2:template}', templateData);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>testCase</tabTrigger>
+	<tabTrigger>renderHandlebarsTemplate</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
+	<scope>source.js</scope>
 </snippet>
