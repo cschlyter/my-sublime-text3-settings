@@ -8,6 +8,7 @@
 	{ "keys": ["ctrl+shift+l"], "command": "reindent" , "args": {"single_line": false}},
 
 	{ "keys": ["shift+enter"], "command": "endline" },
+	{ "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
 
 	{
 		"keys": ["super+alt+left"],
